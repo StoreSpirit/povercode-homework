@@ -1,0 +1,58 @@
+body{
+    background-color: rgba(38, 183, 240, 0.452);
+}
+
+.title-1 {
+    text-align: center;
+    color: rgb(3, 129, 3);
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.promise {
+    font-size: 22px;
+}
+
+.fss {
+    color: red;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.backol {
+   background-color: white;
+   width: 350px;
+}
+
+.first {
+    color: orange;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 19px;
+}
+
+.second {
+    font-size: 19px;
+    color: green;
+    text-decoration: underline;
+}
+
+.third {
+    font-size: 19px;
+    color: blue;
+    font-style: italic;
+}
+
+.fourth {
+    font-size: 19px;
+    color: pink;
+}
+
+.mylink {
+    display: block;
+    background-color: rgb(104, 29, 173);
+    width: 110px;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+}

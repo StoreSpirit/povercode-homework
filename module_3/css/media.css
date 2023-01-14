@@ -1,0 +1,43 @@
+@media screen and (max-width: 922px) {
+    .container {
+        width: 922px;
+        flex-direction: row;
+    }     
+}
+    
+@media screen and (max-width:768px) {    
+    .container {
+        width: 768px;
+    }
+
+    .text_wrapper{
+        margin: 40px 20px;
+        height: 600px;
+    }
+
+    .nav_wrapper {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        height: 140px;
+        margin: 40px 20px;
+    }
+
+    .nav_1, .nav_2 {
+        width: 45%;
+    }
+    
+    .nav_1 {
+        height: 140px;
+    }
+    
+    .nav_2 {
+        height: 103px;
+    }
+}
+
+@media screen and (max-width:576px) {    
+    .container {
+        width: 576px;
+    }
+}    
