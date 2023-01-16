@@ -38,5 +38,3 @@ function getWord() {
 
 // tusk #5
 
-
-
