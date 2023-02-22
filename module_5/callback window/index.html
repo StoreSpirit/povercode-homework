@@ -9,15 +9,21 @@
 </head>
 <body>
     <div class="log_wrapper">
-        <button class="log_close"><img src="./img/cros_close.png" alt="cros"></button>
+        <button class="log_close">&times;</button>
          <div class="log_text">
                 <h1>Login</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam duis vitae curabitur amet, fermentum lorem.</p>
             </div>        
          <div class="button_log">
-                <button class="apple"><img src="./img/apple.png" alt="apple_logo"></button>
-                <button class="facebook"><img src="./img/facebook.png" alt="facebook_logo"></button>
-                <button class="google"><img src="./img/google.png" alt="google_logo"></button>                
+                <button class="apple">                   
+                    <img src="./img/apple.png" alt="apple_logo">                    
+                </button>
+                <button class="facebook">
+                    <img src="./img/facebook.png" alt="facebook_logo">
+                </button>
+                <button class="google">
+                    <img src="./img/google.png" alt="google_logo">
+                </button>                
         </div>
         <img src="img/Line.png" alt="line">               
         <form action="main.php">
@@ -27,7 +33,19 @@
             <a class="forg_pass" href="#">Forgot password?</a>
             <input class="sumbit" type="submit" value="Enter">
         </form>
-        <button class="modal-open" id="modal-open">Call back</button>
+        <button class="modal-open" id="modal-open">Callback</button>
+        <div id ="modal_callback" class="modal_callback">
+            <button class="modal-close" id="modal-close">&times;</button>
+            <div id="callback_form" class="callback_form">
+                <h2>We can callback you</h2>
+                <form action="main.php">
+                    <input id="name_inp" class="name" type="text" placeholder="   Your name">
+                    <input id="email_inp" class="email" type="email" placeholder="   yourmail@email.com">
+                    <input id="tel_inp" class="tel" type="tel" placeholder="   Your phone number">
+                    <input class="sumbit" type="submit" value="Reserve callback">
+                </form>
+            </div>            
+        </div>
     </div>    
     <script src="./index.js":></script>
 </body>    
