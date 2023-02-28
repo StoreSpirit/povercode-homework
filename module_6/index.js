@@ -38,7 +38,7 @@ const clocksArr = [{
     name: 'Hi-Tech clok',
     cost: '150$'    
 },
-/* {
+{
     img: './img/coffee_clock.png',
     name: 'Coffee clock',
     cost: '75$'    
@@ -52,12 +52,12 @@ const clocksArr = [{
     img: './img/smart_clock.png',
     name: 'Smart clock',
     cost: '50$'    
-}*/]
+}]
 
 const clocks = document.getElementById('clocks-list')
 
 function getHtmlFromClock (clock) {
-    return `<li><img src="${clock.img}" alt="${clock.name}"><p class="name_clock">${clock.name}</p><p>Price:${clock.cost}</p></li>`;
+    return `<li class="clock_conteiner"><img src="${clock.img}" alt="${clock.name}"><p class="name_clock">${clock.name}</p><p class="price_clock">Price: ${clock.cost}</p></li>`;
 }
 let html = '';
 
