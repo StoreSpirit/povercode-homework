@@ -112,9 +112,8 @@ input {
     color: rgb(255, 255, 255);
 }
 
-.modal_callback {
-    display: none;
-    position: fixed;
+.modal_callback {    
+    position: fixed;    
     top: 0;
     left: 0;
     margin: auto;
@@ -127,9 +126,6 @@ input {
     background-color: #FFFFFF;      
 }
 
-.modal_callback.opened {
-    display: block;
-}
 
 .modal-close{
     position: absolute;   
@@ -157,3 +153,48 @@ input {
     margin-bottom: 15px;
 }
 
+.back-drop{
+    display: none;
+    position: fixed;
+    background:rgba(0, 0, 0, 0.3);
+    top: 0;
+    left: 0;    
+    right: 0;
+    bottom: 0; 
+}
+
+.back-drop.opened {
+    display: block;
+}
+
+.clocks_list {
+    margin: 40px auto;    
+    list-style: none;
+    width: 500px;
+    height: 250px;
+    display:  flex;    
+    justify-content: space-between;
+    flex-wrap: wrap;  
+}
+
+.clock_conteiner {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 190px;     
+}
+
+.name_clock {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 600;
+    color: rgb(78, 16, 78)    
+}
+
+.price_clock{
+    font-size: 20px;
+    font-weight: bolder;
+    padding-bottom: 5px;
+}

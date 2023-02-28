@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./index.js" defer></script>
+</head>
+<body>
+    <div class="log_wrapper">
+        <button class="log_close">&times;</button>
+        <div class="log_text">
+            <h1>Login</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam duis vitae curabitur amet, fermentum lorem.</p>
+        </div>        
+        <div class="button_log">
+            <button class="apple">                   
+                <img src="./img/apple.png" alt="apple_logo">                    
+            </button>
+            <button class="facebook">
+                <img src="./img/facebook.png" alt="facebook_logo">
+            </button>
+            <button class="google">
+                <img src="./img/google.png" alt="google_logo">
+            </button>                
+        </div>
+        <img src="img/Line.png" alt="line">               
+        <form action="main.php">
+            <input class="email" type="email" placeholder="  yourmail@email.com">
+            <input class="pass" type="password" placeholder="  •••••••••••••">
+            <input class="checkbox" type="checkbox"> Remember me         
+            <a class="forg_pass" href="#">Forgot password?</a>
+            <input class="sumbit" type="submit" value="Enter">
+            <input type="button" class="modal-open" id="modal-open" value="Callback">    
+        </form>
+    </div>       
+    <div class="back-drop" id="back-drop">            
+        <form id="form_call" class="modal_callback" action="main.php">
+            <input type="button" class="modal-close" id="modal-close" value="&times;">
+            <div id="callback_form" class="callback_form">                
+                <h2 id="h2_form_call">We can callback you</h2>
+                <input id="name_inp" class="name" type="text" placeholder="   Your name">
+                <input id="email_inp" class="email" type="email" placeholder="   yourmail@email.com">
+                <input id="tel_inp" class="tel" type="tel" placeholder="   Your phone number">
+                <input class="sumbit" type="submit" value="Reserve callback">
+            </div>
+        </form>
+    </div>
+    <ul class="clocks_list" id="clocks-list">        
+        <!-- <li class="clock_conteiner">
+            <img src="" alt="">
+            <p class="name_clock">Elit clock</p>
+            <p class="price_clock">Price: 250$</p>
+        </li>  -->        
+    </ul>
+</body>    
+</html>
+
